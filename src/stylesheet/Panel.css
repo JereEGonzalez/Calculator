@@ -1,0 +1,54 @@
+.input{
+    width: 95%;
+    height: 130px;
+    margin: 9px auto;
+    border-radius: 15px;
+    border: 3px solid rgb(241, 241, 241);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: rgb(12, 63, 73);
+    font-size: 50px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(220, 246, 248);
+}
+
+.input-off{
+    background-color: rgb(12, 63, 73);;
+}
+
+
+@media (500px < width < 800px) {
+    .input{
+        width: 87%;
+    }
+}
+
+@media (200px < width <= 500px) {
+ 
+    .input{
+        width: 85%;
+        height: 100px;
+        margin: 9px auto;
+        border-radius: 15px;
+        border: 2px solid rgb(241, 241, 241);
+        font-size: 28px;
+        padding: 10px;
+    }
+
+}
+
+@media (width <= 300px) {
+ 
+    .input{
+        width: 85%;
+        height: 70px;
+        margin: 9px auto;
+        border-radius: 15px;
+        border: 2px solid rgb(241, 241, 241);
+        font-size: 20px;
+        padding: 10px;
+    }
+
+}
